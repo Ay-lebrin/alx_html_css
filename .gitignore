@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+node_modules/
+dist/
+.env
+.vscode/
+.idea/
+*.tmp
+*.bak
+*.swp
+*.out
+*.class
+*.exe       
