@@ -1,20 +1,25 @@
 body {
-    flex-direction: column;
-    display: flex;
+  flex-direction: column;
+  display: flex;
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    flex: auto;
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
 
-    article {
-        flex: 2;
-        overflow-y: auto;
-    }
+main article {
+  flex: 2;
+  overflow-y: auto;
+}
 
-    aside {
-        flex: 1;
-        overflow-y: auto;
-    }
+main aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.logo {
+  font-size: 2rem;  /* makes logo bigger */
+  margin-right: 10px;
 }
